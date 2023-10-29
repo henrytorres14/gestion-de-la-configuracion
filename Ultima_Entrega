@@ -1,0 +1,85 @@
+### Entrega_Final
+
+<p>
+
+Enunciado del 4 parcial: Teniendo en cuenta la aplicacion de Pet Clinic. 
+1. Que recursos web de azure utilizarian para llevar a produccion esa aplicacion (Enumere todos lso recursos que consideran necesarios la idea es atender personas que se encuentran en Alemania. 10.000 Usuarios concurrentes. La aplicacion debe estar disponible 24n horas de lunes a domingo toso los dias del año)
+2. Cuanto seria el presupuesto mensual de los recursos a necesitar
+
+
+
+
+
+### Solucion
+
+
+<p>
+- Para llevar la aplicación Pet Clinic a producción en Azure y atender a 10,000 usuarios concurrentes en Alemania con disponibilidad las 24 horas, los 7 días de la semana durante todo el año, necesitaríamos  una infraestructura escalable y confiable. Para llevar a cabo este proyecto decidimos elegir  los recursos de Azure que podríamos  necesitar, también hicimos unos cálculos aproximados en la pagina de Azure digitando nuestros datos de tiempo de utilidad, para así tener un valor cercano al costo de nuestros servicios.
+
+Servicios y costos.
+
+-Servicio de Aplicación (Azure App Service)
+Pensamos en  usar Azure App Service para hospedar la aplicación web de Pet Clinic, ya que esto proporciona escalabilidad automática y alta disponibilidad.
+
+
+
+-Azure SQL Database
+Para la base de datos de la aplicación, podríamos  utilizar Azure SQL Database, ya que tendríamos la opción de elegir la capacidad deseada para nuestro base de datos.
+
+
+
+
+
+-Azure Content Delivery Network (CDN): 
+Para mejorar la velocidad de entrega de contenido, podríamos utilizar Azure CDN para distribuir imágenes y otros recursos estáticos a través de una red de entrega de contenido.
+
+
+
+
+
+-Azure Application Gateway:
+Usaríamos  Azure Application Gateway para equilibrar la carga del tráfico web entre múltiples instancias de nuestro servicio de aplicaciones.
+
+
+
+
+-Azure Virtual Machines: 
+Si en caso tal tendríamos componentes adicionales o servicios que no se pueden alojar en App Service, se podría  utilizar máquinas virtuales de Azure para ejecutarlos.
+
+
+
+-Azure Traffic Manager: 
+Para garantizar la disponibilidad en todo momento, podríamos utilizar Azure Traffic Manager para distribuir el tráfico entre varias regiones de Azure.
+
+
+
+-Azure Monitor y Azure Application Insights: 
+Para monitorear y diagnosticar el rendimiento de la aplicación, utilizaríamos  Azure Monitor y Azure Application Insights.
+
+
+
+
+-Azure Key Vault: 
+Para la gestión segura de secretos y claves, utilizaríamos  Azure Key Vault.
+
+
+
+-Azure Security Center: 
+Para garantizar la seguridad de nuestra aplicación, utilizaríamos  Azure Security Center para monitorear y proteger nuestros recursos de Azure.
+
+
+
+-Azure Backup y Azure Site Recovery:
+Para garantizar la disponibilidad continua y la recuperación ante desastres, podríamos  configurar copias de seguridad regulares y un plan de recuperación en Azure.
+
+
+
+
+-Azure Cost Management and Billing:
+Utilizaríamos  esta herramienta para realizar un seguimiento y gestionar los costos de nuestros  recursos en Azure.
+
+
+Total mensualidad: 386.88 USD
+###End
+
+
